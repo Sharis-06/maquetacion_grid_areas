@@ -1,0 +1,12 @@
+@media (max-width: 480px) {
+    .contenedor_grid {
+        padding: 0px 4%;
+        grid-template: repeat(2, auto) / repeat(5, auto);
+        grid-template-areas: 
+        "foto1 foto1" 
+        "foto1 foto1" 
+        "foto2 foto3" 
+        "foto4 foto5" 
+        "foto6 foto7";
+    }
+}
